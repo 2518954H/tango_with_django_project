@@ -10,7 +10,7 @@ In order to run the tests for, say, Chapter 3, this is what you need to do.
 2. Download the `tests_chapter3.py` module from this directory. You can do this by either cloning this repository to your disk, or downloading each file from the GitHub web interface.
     * To do the latter, click the `tests_chapter3.py` module, then click the `Raw` button. Save this page to your disk.
 3. Place the `tests_chapter3.py` module inside your project's `rango` directory.
-4. In your terminal or Command Prompt, enter the command `$ python manage.py test rango.tests_chapter3.py`. This should execute the tests.
+4. In your terminal or Command Prompt, enter the command `$ python manage.py test rango.tests_chapter3.py`.
 
 If you see `OK` at the end of the output, everything passed. Congratulations! If you don't see `OK`, something failed -- look through the output of the tests to see what test failed, and why. Sometimes, you might have missed something which causes an exception to be raised before the test can be carried out. In instances like this, you'll need to look at what is expected, and go back and fill it in.
 
