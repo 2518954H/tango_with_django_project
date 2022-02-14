@@ -1,6 +1,7 @@
 
 from django.urls import path
 from rango import views
+from django.conf.urls import url
 
 app_name = 'rango'
 
